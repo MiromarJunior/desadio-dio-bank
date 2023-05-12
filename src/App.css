@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.divInput{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 25rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+.fundoLogin {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
+  height: 100vh;
+
+  background-color: beige
 }
 
-.App-link {
-  color: #61dafb;
-}
+.telaLogin {
+  max-width: 500px;
+  margin-top: 20%; 
+  width: 100%;
+  height: 30%;
+  padding: 10px;
+  border-radius: 20px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:aliceblue;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+.telaLogin h1{
+  text-align: center;
 }
